@@ -1,9 +1,11 @@
+[![Docker Repository on Quay](https://quay.io/repository/signrequest/signrequest-event-receiver/status "Docker Repository on Quay")](https://quay.io/repository/signrequest/signrequest-event-receiver)
+
 # SignRequest event receiver server example
 
 Example SignRequest event receiver to async handle SignRequest events and do some work accordingly. Learn more about SignRequest event callbacks here: https://signrequest.com/api/v1/docs/
 
-This is the source for the image pushed to `quay.io/signrequest/signrequest-event-receiver:v1`, see: https://quay.io/repository/signrequest/signrequest-event-receiver
-[![Docker Repository on Quay](https://quay.io/repository/signrequest/signrequest-event-receiver/status "Docker Repository on Quay")](https://quay.io/repository/signrequest/signrequest-event-receiver)
+This is the source for the image pushed to `quay.io/signrequest/signrequest-event-receiver:v1` 
+see: https://quay.io/repository/signrequest/signrequest-event-receiver
 
 The webserver is powered by [Tornado](http://www.tornadoweb.org/), runs on python 3.5 and uses `async` and `await` to make HTTP requests non-blocking. 
 
