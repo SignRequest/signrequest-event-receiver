@@ -1,2 +1,2 @@
-tornado==4.4.2
+tornado==4.4.3
 pycurl==7.43.0
